@@ -10,11 +10,11 @@ using FluentAssertions;
 namespace TddDay1.Tests
 {
     [TestClass()]
-    public class HomeworkTests
+    public class DataAnalyzerTests
     {
-        private Homework<Entity> CreateHomework()
+        private DataAnalyzer<Entity> CreateHomework()
         {
-            return new Homework<Entity>(this.CreateData());
+            return new DataAnalyzer<Entity>(this.CreateData());
         }
 
         private IEnumerable<Entity> CreateData()

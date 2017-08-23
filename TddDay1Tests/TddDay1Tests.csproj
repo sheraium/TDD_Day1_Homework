@@ -65,7 +65,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Entity.cs" />
-    <Compile Include="HomeworkTests.cs" />
+    <Compile Include="DataAnalyzerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

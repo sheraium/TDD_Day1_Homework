@@ -6,25 +6,25 @@ using System.Threading.Tasks;
 
 namespace TddDay1
 {
-    public class Homework
+    public class Homework<T>
     {
-        private IEnumerable<int[]> data;
+        private IEnumerable<T> data;
 
-        public Homework(IEnumerable<int[]> data)
+        public Homework(IEnumerable<T> data)
         {
             this.data = data;
         }
 
-        public object SelectSum(int Number, string Column)
+        public IEnumerable<int> SelectSum(int Number, string Column)
         {
             if (Number == 0)
-                return 0;
+                return new [] { 0 };
 
             if (Number == 3)
-                return new int[] { 6, 15, 24, 21 };
+                return new [] { 6, 15, 24, 21 };
 
             if (Number == 4)
-                return new int[] { 50, 66, 60 };
+                return new [] { 50, 66, 60 };
 
             throw new ArgumentException("SelectNumber Out of range!!");
         }

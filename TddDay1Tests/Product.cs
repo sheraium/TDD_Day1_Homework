@@ -1,6 +1,6 @@
 ﻿namespace TddDay1.Tests
 {
-    internal class Entity
+    internal class Product
     {
         public int Id { get; set; }
 

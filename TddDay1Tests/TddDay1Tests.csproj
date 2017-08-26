@@ -64,7 +64,7 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
-    <Compile Include="Entity.cs" />
+    <Compile Include="Product.cs" />
     <Compile Include="DataAnalyzerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
